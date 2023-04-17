@@ -10,6 +10,7 @@ const numTarget = (nums, target) => {
 
     stock[nums[i]] = i;
   }
+  
 };
 
 console.log(numTarget([3, 4, 6, 2, 12], 9));
